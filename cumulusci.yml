@@ -6,6 +6,7 @@ project:
     - github: 'https://github.com/SalesforceFoundation/NPSP' # Nonprofit Success Pack.  Managed package.  30 minutes to deploy.
     - namespace: et4ae5 # Marketing Cloud.  Managed package.  10 minutes to deploy.
       version: 238.3
+    - github: 'https://github.com/kkgthb/sf-devops-01-kitchen-sink-everything-else'
   git:
     default_branch: 'main'
   source_format: sfdx
