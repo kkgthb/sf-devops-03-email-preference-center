@@ -1,0 +1,7 @@
+project:
+  name: devops-demo-03-email-preference-center
+  package:
+    name: DevOps Demo 03 - Email Preference Center
+  git:
+    default_branch: 'main'
+  source_format: sfdx
