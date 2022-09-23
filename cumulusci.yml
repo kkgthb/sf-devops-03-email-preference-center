@@ -2,6 +2,10 @@ project:
   name: devops-demo-03-email-preference-center
   package:
     name: DevOps Demo 03 - Email Preference Center
+  dependencies:
+    - github: 'https://github.com/SalesforceFoundation/NPSP' # Nonprofit Success Pack.  Managed package.  30 minutes to deploy.
+    - namespace: et4ae5 # Marketing Cloud.  Managed package.  10 minutes to deploy.
+      version: 238.3
   git:
     default_branch: 'main'
   source_format: sfdx
